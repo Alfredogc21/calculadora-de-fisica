@@ -4,7 +4,7 @@ Este proyecto consiste en una calculadora interactiva que proporciona herramient
 
 ## Temas
 
-1. **Ley de Compton**: Este tema aborda la dispersión de la radiación electromagnética por partículas cargadas, como electrones. Puedes acceder a la calculadora de la Ley de Compton haciendo clic [https://alfredogc21.github.io/calculadora-de-fisica/compton.html](compton.html).
+1. **Ley de Compton**: Este tema aborda la dispersión de la radiación electromagnética por partículas cargadas, como electrones. Puedes acceder a la calculadora de la Ley de Compton haciendo clic [Ley de compton](https://alfredogc21.github.io/calculadora-de-fisica/compton.html).
 
 2. **Ondas de Broglie**: Las ondas de Broglie son una característica de la mecánica cuántica que describe el comportamiento ondulatorio de las partículas materiales. Para realizar cálculos relacionados con este tema, visita la calculadora de Ondas de Broglie [aquí](broglie.html).
 
