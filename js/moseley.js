@@ -192,8 +192,7 @@ function mostrarDetalle() {
 
 // Limpiar campos
 function limpiar() {
-    document.getElementById('wavelength').value = '';
-    document.getElementById('angle').value = '';
+    document.getElementById('nAtomico').value = '';
 }
 
 // Retroceder a la página anterior
