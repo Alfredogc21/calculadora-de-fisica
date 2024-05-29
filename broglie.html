@@ -4,20 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Determinar la frecuencia de los rayos X</title>
-    <link rel="stylesheet" href="estilos/estilosmosely.css">
+    <title>Determinar la Onda de Broglie</title>
+    <link rel="stylesheet" href="estilos/estilosbroglie.css">
     <link rel="shortcut icon" href="imagenes/logoItftp.png" type="image/x-icon">
 </head>
 
 <body>
     <div id="particles-js" class="particles"> </div>
 
-    <h1 class="titulo"><strong>Ley de Moseley</strong></h1>
+    <h1 class="titulo"><strong>Ondas de Broglie</strong></h1>
     <div class="container">
         <section class="container__operaciones">
             <div class="input-container">
-                <label for="nAtomico">Numero Atomico del elemento (Z): </label>
-                <input type="number" id="nAtomico" step="any">
+                <label for="mParticle">Masa de la particula (M): </label>
+                <input type="number" id="mParticle" step="any">
+                
+                <br>
+                <br>
+                <label for="vParticle">Velocidad de la particula (V): </label>
+                <input type="number" id="vParticle" step="any">
                 <span></span>
             </div>
             <button onclick="calcular()">Calcular</button>
@@ -32,12 +37,12 @@
         </section>
 
         <section class="container__imagen">
-            <h2 id="tituloImg">Calculadora de frecuencia de los rayos X de Moseley</h2>
+            <h2 id="tituloImg">Calculadora la longitud de Onda de Broglie</h2>
 
         </section>
     </div>
     
-    <script src="js/moseley.js"></script>
+    <script src="js/broglie.js"></script>
     <script src="js/particles.min.js"></script>
     <script>
         particlesJS({
