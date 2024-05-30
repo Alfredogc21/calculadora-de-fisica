@@ -14,8 +14,8 @@ let constantePlankExponente = constantePlank.toExponential(3);
 let partesConstantePlank = constantePlankExponente.split("e");
 let decimalPartesConstantePlank = parseFloat(partesConstantePlank[0]);
 
-console.log(constantePlank);
-console.log(decimalPartesConstantePlank);
+//console.log(constantePlank);
+//console.log(decimalPartesConstantePlank);
 
 
 let tituloImagenContenedor = document.getElementById('tituloImg');
@@ -31,8 +31,8 @@ function calcular() {
         return;
     }
 
-    console.log(mParticula);
-    console.log(vParticula);
+    //console.log(mParticula);
+    //console.log(vParticula);
 
     constantePlackExponete = constantePlank.toExponential(3);
     resulVeloPorMasa = (mParticula * vParticula).toExponential(3);
@@ -48,12 +48,12 @@ function calcular() {
     partesResultadosFinal = resultadosFinal.split("e");
     decimalPartResultadoFinal = parseFloat(partesResultadosFinal[0]);
 
-    console.log(constantePlank);
-    console.log(constantePlackExponete);
-    console.log(resulVeloPorMasa);
-    console.log(resulDivi);
-    console.log(resultadosFinal);
-    console.log(decimalPartResultadoFinal);
+    //console.log(constantePlank);
+    //console.log(constantePlackExponete);
+    //console.log(resulVeloPorMasa);
+    //console.log(resulDivi);
+    //console.log(resultadosFinal);
+    //console.log(decimalPartResultadoFinal);
 
     // Mostrar resultados iniciales
         contenedorResultados.innerHTML = "<p>h = " + decimalPartesConstantePlank.toFixed(3) + " x 10<sup>-34</sup> J * s </p>" +
@@ -96,7 +96,8 @@ function mostrarDetalle() {
 
 // Limpiar campos
 function limpiar() {
-    document.getElementById('nAtomico').value = '';
+    document.getElementById('mParticle').value = '';
+    document.getElementById('vParticle').value = '';
 }
 
 // Retroceder a la página anterior
